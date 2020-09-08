@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
    * in tijd waarop Angular bepaalde logica uitvoert. De onInit vindt plaats bij het inladen van het component.
    * Eigenlijk is dit hetzelfde als een constructor, maar die wordt binnen Angular eigenlijk niet gebruikt (behalve
    * voor dependency injection, waarmee je bijvoorbeeld een service beschikbaar maakt in een component. De tutorial
-   * van Angular legt uit hoe dit werkt.
+   * van Angular legt uit hoe dit werkt: https://angular.io/guide/lifecycle-hooks
    */
   ngOnInit(): void {
     ChemDoodle.ELEMENT['H'].jmolColor = MOL_COLOR_H;
