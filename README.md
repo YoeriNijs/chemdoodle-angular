@@ -1,27 +1,17 @@
-# TestTom
+# Testproject voor inladen ChemDoodle in Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+### Handige links
+- NodeJS (voor NPM): https://nodejs.org/en/
+- Angular CLI: https://cli.angular.io/
+- Angular Material (componentenbibliotheek voor het inladen van buttons enz.): https://material.angular.io/
+- Tutorial voor gebruik van gRPC-client in TypeScript: https://github.com/grpc/grpc-web
 
-## Development server
+### Tip
+- Raak bekend met Angular. Volg hiervoor de Angular-tutorial Tour of Heroes. Het is uiteindelijk de bedoeling (binnen Angular) om alle
+communicatie met de server via een zogenoemde 'service' te laten verlopen. Link tutorial: https://angular.io/tutorial. Een service kun je gemakkelijk genereren met de cli door middel van `ng g s MijnServiceNaam`.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### App draaien
+- Depencencies installeren: `npm install`
+- Angular-cli global installeren (met optie `-g`, zodat ng beschikbaar is op heel jouw computer en je 'ng' in terminal kunt gebruiken.): `https://cli.angular.io`
+- Applicatie starten: `npm start` of `ng serve`
+- Uitrollen naar productie (naar dist-map): `ng build` of `ng build --prod`
